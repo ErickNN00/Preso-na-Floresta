@@ -5,3 +5,13 @@
 .passo.ativo{
     display: block;
 }
+
+body{
+    background-color: #3b553e;
+    color: white;
+}
+.botao{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
