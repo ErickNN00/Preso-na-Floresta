@@ -36,13 +36,19 @@ section{
 }
 
 button{
-    margin: 5px;
-    border-bottom-right-radius: 15px;
+    background: #254228;
+    color: white;
+    margin: 7.5px;
+    border-bottom-right-radius: 20px;
     border-bottom-left-radius: 10px;
-    border-top-left-radius: 15px;
+    border-top-left-radius: 20px;
     border-top-right-radius: 10px;
-    padding: 10px;
+    padding: 12.5px;
     font-size: 15px;
+}
+
+button:hover{
+    font-size: 16px;
 }
 
 .botao{
