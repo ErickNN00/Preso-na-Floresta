@@ -10,6 +10,10 @@ body{
     background-color: #354136;
     margin: 0px;
     color: white;
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 
 header{
