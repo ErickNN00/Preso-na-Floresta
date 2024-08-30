@@ -12,7 +12,7 @@ body{
     color: white;
     font-family: "Dosis", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: 400px;
     font-style: normal;
 }
 
@@ -23,7 +23,7 @@ header{
     font-size: 30px;
     text-align: center;
     font-family: "Bungee", sans-serif;
-    font-weight: 400;
+    font-weight: 400px;
     font-style: normal;
     text-shadow: 8px 6px 6px black;
 }
@@ -52,8 +52,12 @@ button{
     border-top: solid 1px #77fa84;
     border-left: solid 1px #77fa84;
     padding: 12.5px;
-    font-size: 15px;
+    font-size: 16px;
     box-shadow: 4px 3px 4px 0px black;
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
 }
 
 button:hover{
