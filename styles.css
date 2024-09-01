@@ -12,7 +12,6 @@ body{
     color: white;
     font-family: "Dosis", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400px;
     font-style: normal;
 }
 
@@ -68,6 +67,10 @@ button:hover{
     border-bottom: solid 1px #77fa84;
     border-right: solid 1px #77fa84;
     box-shadow: 4px 4px 10px 3px black;
+}
+
+img{
+    max-width:40%
 }
 
 .botao{
