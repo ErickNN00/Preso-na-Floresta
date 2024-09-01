@@ -16,7 +16,7 @@
         
         <section>
             <!--passo 0-->
-            <div class="passo ativo" id="passo-0">
+            <div class="passo" id="passo-0">
                 <p>Você estava andando de carro e pegou um atalho em uma estrada de terra para chegar mais rápido ao destino, mas estava escuro e chovendo e você perde o controle do carro, sai da estrada e o carro fica atolado na lama. Escolha o que você irá fazer:</p>
                 
                 <div class="parte-baixo">
@@ -62,7 +62,7 @@
             </div>
 
             <!--passo 3-->
-            <div class="passo" id="passo-3">
+            <div class="passo ativo" id="passo-3">
                 <p>Escolha a primeira coisa que você irá fazer:</p>
 
                 <div class="parte-baixo">
@@ -77,13 +77,22 @@
 
             <!--passo 4-->
             <div class="passo" id="passo-4">
-                <p>Você estava procurar um galho, mas apareceu uma cobra. Escolha o que você irá fazer:</button>
-                        <button class="btn-proximo" data-proximo="12">Buscar por uma pá ou enxada para tentar cavar e desatolar o carro</button>
-                        <button class="btn-proximo" data-proximo="13">Verificar se há um cobertor ou agasalho para se proteger do frio e da chuva</button>
-                    </div>
-                    <img src="imagem-floresta.png" alt="">
+                <p>Você estava procurando um galho, mas apareceu uma cobra. Escolha o que você irá fazer:
+                        
+                        
+                    </p><button class="btn-proximo" data-proximo="2">Seguir a estrada de terra a pé</button><button class="btn-proximo" data-proximo="14">fugir para dentro da floresta</button></div>
+                    <!--passo 5-->
+            <div class="passo" id="passo-5">
+                <div class="botao">
+                    <p>Não tem sinal de celular. Escolha o que você irá fazer: </p>
+                    <button class="btn-proximo" data-proximo="4">Utilizar galhos ou pedaços de madeira como alavanca para tentar desatolar</button>
+                    <button class="btn-proximo" data-proximo="3">Verificar se há algum objeto no carro que possa ajudar na situação</button>
+                    <button class="btn-proximo" data-proximo="15">Tentar empurrar o carro para sair da lama</button>
                 </div>
+            <img src="imagem-floresta.png" alt="">
             </div>
+                
+            
         </section>
     </main>
     <script src="script.js"></script>
