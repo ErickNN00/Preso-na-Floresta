@@ -70,7 +70,8 @@ button:hover{
 }
 
 img{
-    max-width:40%
+    max-width:40%;
+    margin: 5%;
 }
 
 .botao{
