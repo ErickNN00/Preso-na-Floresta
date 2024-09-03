@@ -1,89 +1,175 @@
-.passo{
-    display: none;
-}
+<html lang="pt-BR"><head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&amp;display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&amp;display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Preso na Floresta</title>
+</head>
 
-.passo.ativo{
-    display: block;
-}
+<body>
+    <main>
+        <header>Preso na Floresta</header>
 
-body{
-    background-color: #354136;
-    margin: 0px;
-    color: white;
-    font-family: "Dosis", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-}
+        <section>
+            <!--passo 0-->
+            <div class="passo ativo" id="passo-0">
+                <p>Você estava andando de carro e pegou um atalho em uma estrada de terra para chegar mais rápido ao
+                    destino, mas estava escuro e chovendo e você perde o controle do carro, sai da estrada e o carro
+                    fica atolado na lama. Escolha o que você irá fazer:</p>
 
-header{
-    border-bottom: solid 2px #77fa84;
-    background: #254228;
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-    font-family: "Bungee", sans-serif;
-    font-weight: 400px;
-    font-style: normal;
-    text-shadow: 8px 6px 6px black;
-}
+                <div class="parte-baixo">
+                    <div class="botao">
+                        <button class="btn-proximo" data-proximo="1">Tentar empurrar o carro para sair da lama</button>
+                        <button class="btn-proximo" data-proximo="2">Seguir a estrada de terra a pé</button>
+                        <button class="btn-proximo" data-proximo="3">Verificar se há algum objeto no carro que possa
+                            ajudar na situação</button>
+                        <button class="btn-proximo" data-proximo="4">Utilizar galhos ou pedaços de madeira como alavanca
+                            para tentar desatolar</button>
+                        <button class="btn-proximo" data-proximo="5">Chamar um serviço de guincho para auxiliar na
+                            remoção do veículo</button>
+                    </div>
+                    <img src="imagem-carro.png" alt="">
+                </div>
+            </div>
 
-section{
-    background: #3d6541;
-    margin: 50px;
-    border: solid 2px #77fa84;
-    border-top-left-radius: 35px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 35px;
-    padding: 20px;
-    font-size: 20px;
-}
+            <!--passo 1-->
+            <div class="passo" id="passo-1">
+                <p>Você não conseguiu tirar o carro da lama. Escolha o que você irá fazer:</p>
 
-button{
-    background: #254228;
-    color: white;
-    margin: 7.5px;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 10px;
-    border: 0px;
-    border-top: solid 1px #77fa84;
-    border-left: solid 1px #77fa84;
-    padding: 12.5px;
-    font-size: 16px;
-    box-shadow: 4px 3px 4px 0px black;
-    font-family: "Dosis", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400px;
-    font-style: normal;
-    cursor: pointer;
-}
+                <div class="parte-baixo">
+                    <div class="botao">
+                        <button class="btn-proximo" data-proximo="2">Seguir a estrada de terra a pé</button>
+                        <button class="btn-proximo" data-proximo="3">Verificar se há algum objeto no carro que possa
+                            ajudar na situação</button>
+                        <button class="btn-proximo" data-proximo="4">Utilizar galhos ou pedaços de madeira como alavanca
+                            para tentar desatolar</button>
+                        <button class="btn-proximo" data-proximo="6">Chamar um serviço de guincho para auxiliar na
+                            remoção do veículo</button>
+                    </div>
+                    <img src="imagem-carro.png" alt="">
+                </div>
+            </div>
 
-button:hover{
-    padding: 13px;
-    background: #29492c;
-    border-top: solid 2px #77fa84;
-    border-left: solid 2px #77fa84;
-    border-bottom: solid 1px #77fa84;
-    border-right: solid 1px #77fa84;
-    box-shadow: 4px 4px 10px 3px black;
-}
+            <!--passo 2-->
+            <div class="passo" id="passo-2">
+                <p>Depois de um tempo, você ficou com fome. Escolha o que você irá fazer:</p>
 
-img{
-    max-width:40%;
-    margin: 2%;
-}
+                <div class="parte-baixo">
+                    <div class="botao">
+                        <button class="btn-proximo" data-proximo="7">Procurar por frutas ou vegetais para comer</button>
+                        <button class="btn-proximo" data-proximo="8">Montar uma armadilha para caçar pequenos
+                            animais</button>
+                        <button class="btn-proximo" data-proximo="9">Explorar a região em busca de um riacho para
+                            pescar</button>
+                        <button class="btn-proximo" data-proximo="10">Continuar a andar</button>
+                    </div>
+                    <img src="imagem-floresta.png" alt="">
+                </div>
+            </div>
 
-.botao{
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-}
+            <!--passo 3-->
+            <div class="passo" id="passo-3">
+                <p>Escolha a primeira coisa que você irá fazer:</p>
 
-.parte-baixo{
-    display: flex;
-    padding: 0px;
-    align-items: center;
-    justify-content: space-between;
-}
+                <div class="parte-baixo">
+                    <div class="botao">
+                        <button class="btn-proximo" data-proximo="11">Verificar se há uma lanterna para melhor
+                            visualização</button>
+                        <button class="btn-proximo" data-proximo="12">Buscar por uma pá ou enxada para tentar cavar e
+                            desatolar o carro</button>
+                        <button class="btn-proximo" data-proximo="13">Verificar se há um cobertor ou agasalho para se
+                            proteger do frio e da chuva</button>
+                    </div>
+                    <img src="imagem-carro.png" alt="">
+                </div>
+            </div>
+
+            <!--passo 4-->
+
+            <div class="passo" id="passo-4">
+                <p>Você estava procurando um galho, mas apareceu uma cobra. Escolha o que você irá fazer:</p>
+                <div class="parte-baixo">
+                    <div class="botao">
+                        <button class="btn-proximo" data-proximo="2">Seguir a estrada de terra a pé</button>
+
+                        <button class="btn-proximo" data-proximo="14">fugir para dentro da floresta</button>
+                    </div>
+                    <img src="imagem-cobra.png" alt="">
+                </div>
+            </div>
+            <!--passo 5-->
+            <div class="passo" id="passo-5">
+                <p>Não tem sinal de celular. Escolha o que você irá fazer: </p>
+                <div class="parte-baixo">
+                    <div class="botao">
+                        <button class="btn-proximo" data-proximo="4">Utilizar galhos ou pedaços de madeira como alavanca
+                            para tentar desatolar</button>
+                        <button class="btn-proximo" data-proximo="3">Verificar se há algum objeto no carro que possa
+                            ajudar na situação</button>
+                        <button class="btn-proximo" data-proximo="15">Tentar empurrar o carro para sair da lama</button>
+                    </div>
+                    <img src="imagem-carro.png" alt="">
+                </div>
+            </div>
+
+            <!--passo 6-->
+            <div class="passo" id="passo-6">
+                <p>Você percebeu que não tem sinal de celular e depois de um tempo você viu uma cobra. Escolha o que
+                    você irá fazer:</p>
+                <div class="parte-baixo">
+                    <div class="botao">
+                        <button class="btn-proximo" data-proximo="16">Procurar por algum objeto para se proteger caso a
+                            cobra se aproxime</button>
+                        <button class="btn-proximo" data-proximo="30">Fugir</button>
+
+                    </div>
+                    <img src="imagem-cobra.png" alt="">
+                </div>
+            </div>
+
+            <!--passo 7-->
+            <div class="passo" id="passo-7">
+                <p>Você encontrou frutas, mas ficou perdido. Escolha o que você irá fazer:</p>
+                <div class="parte-baixo">
+                    <div class="botao">
+                        <button class="btn-proximo" data-proximo="17">Observar a lua para tentar identificar a
+                            direção</button>
+                        <button class="btn-proximo" data-proximo="18">Procurar por um abrigo temporário para passar a
+                            noite</button>
+
+                    </div>
+                    <img src="imagem-floresta.png" alt="">
+                </div>
+            </div>
+
+            <!--passo 8-->
+            <div class="passo" id="passo-8">
+                <p>Você conseguiu montar uma armadilha, mas não conseguiu pegar nenhum animal. Escolha o que você irá
+                    fazer:</p>
+                <div class="parte-baixo">
+                    <div class="botao">
+                        <button class="btn-proximo" data-proximo="7">Procurar por frutas ou vegetais para comer</button>
+                        <button class="btn-proximo" data-proximo="10">Voltar a seguir a estrada de terra</button>
+
+                    </div>
+                    <img src="imagem-floresta.png" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+
+
+
+
+
+
+
+
+
+</body></html>
