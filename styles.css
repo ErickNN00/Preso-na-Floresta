@@ -13,12 +13,10 @@ body{
     font-family: "Dosis", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-}.passo{
-    display: none;
 }
 
-.passo.ativo{
-    display: block;
+.passo{
+    display: none;
 }
 
 body{
@@ -44,7 +42,7 @@ header{
 
 section{
     background: #3d6541;
-    margin: 50px;
+    margin: 45px;
     border: solid 2px #77fa84;
     border-top-left-radius: 35px;
     border-top-right-radius: 10px;
@@ -102,4 +100,5 @@ img{
     align-items: center;
     justify-content: space-between;
 }
+
 
