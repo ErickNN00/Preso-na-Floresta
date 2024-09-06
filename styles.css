@@ -25,12 +25,12 @@ header{
     font-family: "Bungee", sans-serif;
     font-weight: 400px;
     font-style: normal;
-    text-shadow: 8px 6px 6px black;
+    text-shadow: 7px 7px 6px black;
 }
 
 section{
     background: #3d6541;
-    margin: 45px;
+    margin: 42.5px;
     border: solid 2px #77fa84;
     border-top-left-radius: 35px;
     border-top-right-radius: 10px;
@@ -74,6 +74,13 @@ button:hover{
 img{
     max-width: 40%;
     margin: 1%;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 45px;
+    border-left: solid 2px #77fa84;
+    border-top: solid 2px #77fa84;
+    box-shadow: 3px 3px 10px 0px black;
 }
 
 .botao{
