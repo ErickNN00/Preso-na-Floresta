@@ -25,7 +25,7 @@ header{
     font-family: "Bungee", sans-serif;
     font-style: normal;
     text-shadow: 7px 7px 6px black;
-    box-shadow: 0 0 black;
+    box-shadow: 1px 1px 10px black;
 }
 
 section{
