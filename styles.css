@@ -23,9 +23,9 @@ header{
     font-size: 30px;
     text-align: center;
     font-family: "Bungee", sans-serif;
-    font-weight: 400px;
     font-style: normal;
     text-shadow: 7px 7px 6px black;
+    box-shadow: 0 0 black;
 }
 
 section{
@@ -38,6 +38,7 @@ section{
     border-bottom-right-radius: 35px;
     padding: 20px;
     font-size: 20px;
+    box-shadow: inset 1px 1px 10px 0px black;
 }
 
 button{
