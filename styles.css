@@ -14,6 +14,7 @@ body{
     font-family: "Dosis", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    text-shadow: 1px 1px 3px black;
 }
 
 header{
@@ -26,6 +27,7 @@ header{
     font-style: normal;
     text-shadow: 7px 7px 6px black;
     box-shadow: 1px 1px 10px black;
+    letter-spacing: 34px;
 }
 
 section{
@@ -55,9 +57,9 @@ button{
     padding: 12.5px;
     font-size: 16px;
     box-shadow: 4px 3px 4px 0px black;
+    text-shadow: 1px 1px 3px black;
     font-family: "Dosis", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400px;
     font-style: normal;
     cursor: pointer;
 }
